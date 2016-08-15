@@ -8,6 +8,13 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 abstract class BaseInterpreter implements Interpreter
 {
     const STATUS_OK = 'OK';
+
+    /**
+     * Interprets response returned by Guzzle client
+     *
+     * @param Response $response
+     * @return mixed
+     */
     public function interpret(Response $response)
     {
         $json = \GuzzleHttp\json_decode($response->getBody());

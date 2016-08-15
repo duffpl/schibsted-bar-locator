@@ -10,7 +10,6 @@ requirejs(["client", "lib/mustache", 'async!http://maps.google.com/maps/api/js?k
         lat: 54.348545,
         lng: 18.6532295
     };
-
     function init() {
         var lat = currentCoordinates.lat;
         var lng = currentCoordinates.lng;

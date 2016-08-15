@@ -30,7 +30,6 @@ $app->after(function (\Symfony\Component\HttpFoundation\Request $req, \Symfony\C
     if ($response->getStatusCode() == 200) {
         $response->setTtl(3600);
     }
-
 });
 $app->error(function (\Symfony\Component\HttpKernel\Exception\HttpException $exception) use ($app) {
     $response = new \Symfony\Component\HttpFoundation\JsonResponse(['message' => $exception->getMessage()], $exception->getStatusCode());
@@ -41,6 +40,4 @@ $app->register(new Silex\Provider\HttpCacheServiceProvider(), array(
     'http_cache.cache_dir' => sys_get_temp_dir() . '/cache',
     'http_cache.esi'       => null
 ));
-//$app['debug'] = true;
-//$app->run();
 $app['http_cache']->run();

@@ -7,7 +7,9 @@ use GuzzleHttp\Psr7\Response;
 class Detail extends BaseInterpreter
 {
     /**
-     * @param Response $response
+     * Interpretes response from place detail call [/details]
+     *
+     * @param Response $clientResponse
      * @return Location
      */
     public function interpret(Response $clientResponse)

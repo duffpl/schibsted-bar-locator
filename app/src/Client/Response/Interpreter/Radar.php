@@ -10,6 +10,8 @@ use GuzzleHttp\Psr7\Response;
 class Radar extends BaseInterpreter
 {
     /**
+     * Interpretes response from radar search call [/radarsearch]
+     *
      * @param Response $clientResponse
      * @return RadarLocationCollection
      */

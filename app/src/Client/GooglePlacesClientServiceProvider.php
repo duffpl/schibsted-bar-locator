@@ -10,6 +10,11 @@ use Pimple\ServiceProviderInterface;
 
 class GooglePlacesClientServiceProvider implements ServiceProviderInterface
 {
+    /**
+     * Registers all required services/dependencies in Silex container
+     *
+     * @param Container $app
+     */
     public function register(Container $app)
     {
         $app['guzzle'] = function () {

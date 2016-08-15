@@ -26,6 +26,13 @@ class Place
         $this->apiClient = $apiClient;
     }
 
+    /**
+     * Fetches radarsearch data using api client and returns formatted result
+     *
+     * @param Request $request
+     * @param Application $app
+     * @return mixed
+     */
     public function radarAction(Request $request, Application $app)
     {
         $latitude = $request->get('latitude', null);
@@ -39,6 +46,13 @@ class Place
         return self::formatResponse($result, $request);
     }
 
+    /**
+     * Fetches place detail data using api client and returns formatted result
+     *
+     * @param $placeId
+     * @param Request $request
+     * @return mixed
+     */
     public function detailAction($placeId, Request $request)
     {
         /** @var GooglePlaces $client */
@@ -46,6 +60,13 @@ class Place
         return self::formatResponse($apiResult, $request);
     }
 
+    /**
+     * Formats response using formatter created by factory
+     *
+     * @param $responseData
+     * @param Request $request
+     * @return mixed
+     */
     protected function formatResponse($responseData, Request $request) {
         $formatType = $request->get('format', null);
         if ($formatType) {

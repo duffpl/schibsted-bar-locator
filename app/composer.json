@@ -9,7 +9,6 @@
     "require": {
         "silex/silex": "2.0.2",
         "guzzlehttp/guzzle": "6.2.*",
-        "google/apiclient": "2.0.2",
         "sabre/xml": "^1.4"
     },
     "require-dev": {

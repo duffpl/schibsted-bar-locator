@@ -30,6 +30,12 @@ class GooglePlaces
         $this->responseInterpreterFactory = $responseInterpreterFactory;
     }
 
+    /**
+     * Returns interpreted search results from radarsearch api call
+     *
+     * @param Coordinates $location
+     * @return \BarLocator\Entity\RadarLocationCollection
+     */
     public function findPlaces(Coordinates $location)
     {
         $request = $this->requestFactory->getRadarRequest($location);
@@ -39,6 +45,8 @@ class GooglePlaces
     }
 
     /**
+     * Returns interpreted search results from place detail api call
+     *
      * @param $placeId
      * @return Location
      */
