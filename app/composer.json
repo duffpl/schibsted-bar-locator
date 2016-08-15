@@ -1,0 +1,24 @@
+{
+    "name": "bpachut/barlocator",
+    "authors": [
+        {
+            "name": "Blazej Pachut",
+            "email": "bpachut@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "2.0.2",
+        "guzzlehttp/guzzle": "6.2.*",
+        "google/apiclient": "2.0.2",
+        "sabre/xml": "^1.4"
+    },
+    "require-dev": {
+        "crysalead/kahlan": "~2.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "spec\\": "spec",
+            "BarLocator\\": "src"
+        }
+    }
+}

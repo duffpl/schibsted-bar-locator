@@ -1,0 +1,19 @@
+fpm:
+  build: ./fpm
+  volumes:
+    - ../app/:/var/www/html
+  expose:
+    - "9000"
+  environment:
+    - APIKEY=<Google Places API Key goes here>
+data:
+  build: ./data
+nginx:
+  ports:
+    - 30000:80
+  build: ./nginx
+  volumes:
+    - ./nginx/config:/config
+    - ../app/:/var/www/html
+  links:
+    - fpm

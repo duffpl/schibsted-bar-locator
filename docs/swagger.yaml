@@ -1,0 +1,119 @@
+swagger: '2.0'
+info:
+  title: BarLocator API
+  description: REST interface for hassle-free, zero-configuration, yours one-and-only BAAAAR LOCAAATOR
+  version: "1.0.0"
+host: locator.bar
+schemes:
+  - http
+basePath: /v1
+produces:
+  - application/xml
+parameters:
+   formatParam:
+      name: format
+      in: query
+      description: Response format
+      required: false
+      default: 'json'
+      type: string
+paths:
+  /place:
+    get:
+      summary: Search Result
+      description: |
+        Search endpoint will return list of nearby bar locations within 2000
+        meter radius from specified center point
+      parameters:
+        - name: latitude
+          type: number
+          format: double
+          in: query
+          required: false
+          description: Center location latitude
+        - name: longitude
+          type: number
+          format: double
+          in: query
+          required: false
+          description: Center location longitude. If latitude is defined then this parameter is also required
+        - $ref: "#/parameters/formatParam"
+      responses:
+        200:
+          description: An array of location short data
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/RadarLocation'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /place/{id}:
+    get:
+      summary: Details of specific place
+      description: |
+        Fetches details of specific bar
+      parameters:
+        - name: id
+          type: string
+          in: path
+          required: true
+          description: Place ID
+      responses:
+        200:
+          description: Detailed location data
+          schema:
+            $ref: "#/definitions/Location"
+
+definitions:
+  PlaceID:
+    type: string
+    description: Unique identifier representing location ID.
+  Coordinates:
+    type: object
+    description: Geo coordinates
+    properties:
+      latitude:
+        type: number
+        format: double
+      longitude:
+        type: number
+        format: double
+  RadarLocation:
+    type: object
+    description: Object that contains Coordinates and PlaceID of found location
+    properties:
+      coordinates:
+        $ref: "#/definitions/Coordinates"
+      placeId:
+        $ref: "#/definitions/PlaceID"
+  Location:
+    type: object
+    description: Detailed location data
+    properties:
+      coordinates:
+        $ref: "#/definitions/Coordinates"
+      place_id:
+        $ref: "#/definitions/PlaceID"
+      name:
+        type: string
+        description: Place name
+      phone:
+        type: string
+        description: Phone number
+      address:
+        type: string
+        description: Formatted address of place
+      website:
+        type: string
+        description: Web site address of place. Can be empty
+      rating:
+        type: number
+        format: double
+        description: User rating of place. Can be 0
+  Error:
+    type: object
+    properties:
+      message:
+        type: string

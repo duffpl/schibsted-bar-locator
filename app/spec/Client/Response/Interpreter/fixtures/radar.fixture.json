@@ -1,0 +1,28 @@
+{
+  "html_attributions": [],
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 11.1,
+          "lng": 22.2
+        }
+      },
+      "id": "123321",
+      "place_id": "Place1ID",
+      "reference": "ref"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 33.3,
+          "lng": 44.4
+        }
+      },
+      "id": "123321",
+      "place_id": "Place2ID",
+      "reference": "ref"
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,311 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "2",
+        "short_name": "2",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Podmurze",
+        "short_name": "Podmurze",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Gdańsk",
+        "short_name": "Gdańsk",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Gdańsk",
+        "short_name": "Gdańsk",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "pomorskie",
+        "short_name": "pomorskie",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Polska",
+        "short_name": "PL",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "80-835",
+        "short_name": "80-835",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "adr_address": "<span class=\"street-address\">Podmurze 2</span>, <span class=\"postal-code\">80-835</span> <span class=\"locality\">Gdańsk</span>, <span class=\"country-name\">Polska</span>",
+    "formatted_address": "Podmurze 2, 80-835 Gdańsk, Polska",
+    "formatted_phone_number": "512 853 681",
+    "geometry": {
+      "location": {
+        "lat": 54.35200380000001,
+        "lng": 18.6504951
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 54.3521703,
+          "lng": 18.65059885
+        },
+        "southwest": {
+          "lat": 54.35194830000001,
+          "lng": 18.65041305
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+    "id": "2a293ddb8ddfdc1d65274d12c8465e50a3fe68ef",
+    "international_phone_number": "+48 512 853 681",
+    "name": "Cafe Szafa",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "0000"
+          },
+          "open": {
+            "day": 0,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "0300"
+          },
+          "open": {
+            "day": 1,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "0300"
+          },
+          "open": {
+            "day": 2,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "0300"
+          },
+          "open": {
+            "day": 3,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "0300"
+          },
+          "open": {
+            "day": 4,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "0600"
+          },
+          "open": {
+            "day": 5,
+            "time": "1500"
+          }
+        },
+        {
+          "close": {
+            "day": 0,
+            "time": "0600"
+          },
+          "open": {
+            "day": 6,
+            "time": "1500"
+          }
+        }
+      ],
+      "weekday_text": [
+        "poniedziałek: 15:00–03:00",
+        "wtorek: 15:00–03:00",
+        "środa: 15:00–03:00",
+        "czwartek: 15:00–03:00",
+        "piątek: 15:00–06:00",
+        "sobota: 15:00–06:00",
+        "niedziela: 15:00–00:00"
+      ]
+    },
+    "photos": [
+      {
+        "height": 639,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103611858263780846217/photos\">Cafe Szafa</a>"
+        ],
+        "photo_reference": "CoQBcwAAAEaesnkigawmlglMTzt6R9ty-GZTTcozcCP3Vm9oMKb9yP56EiumsYfQTymGVPYyxKbvAUwoACvP8dgs1VH5I_IWsIetawrwLImsYI9XTbXafvRRNxnU73M0yBGeCXEz-7Av-Ab6xWBpGp9bofG-Qml2XKMw1zKjpVOpZSjWiob0EhBXIMPtBez5PZ0mhbJn2rGCGhRJlZJ1qqlsM09xBse5iVzCLU6SNA",
+        "width": 960
+      },
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107878094994272872924/photos\">Piotr Marszałkowski</a>"
+        ],
+        "photo_reference": "CoQBdwAAANqCKFxZ6HUmRxI8ulCIem0zDimm1QnxB8IItkwFW43ProQ-9Pzwng3qadc27pTqv4rEX0Li3NkRiLO-9oJ0Y1vJ0yb_SMdQsc3sQr5Tv0VnkAK4YRm_5e-gOPM9lfeWPtWVwgQQIgBF-P0x7k4Ziiv7LUFkqbwcYIo2A0kofTGqEhBXyAhFhpoVN5pFdMviWoiRGhQBb1mX1rFSWa6rd7mOr341aUqgzw",
+        "width": 3840
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106083973217255404633/photos\">Paulina Rybicka</a>"
+        ],
+        "photo_reference": "CoQBdwAAACB574pd5nrBbVWKcQ-Sc8luZPIPMOzl-xYxdZDdW8Ld1aPXhiSNnGJXeKiQWJyeV3Qwk7-URAg_C8xv24_SGBKbLSr_I_Z8gXE7-JBfWfyAZRjPC9-i2IgJEn-H4ClpAjrbLg_MGKucA6qlFmwvyXv964t7ReTCLzCSrvFC54UDEhDy3z13mHrQLuSmPnsSEZ7mGhQYf4kx5F6uuSBtWZLdWywAr-z_bg",
+        "width": 2340
+      },
+      {
+        "height": 3264,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101169228980330910989/photos\">Adele D.</a>"
+        ],
+        "photo_reference": "CoQBcwAAAJcvr4inOypfzVL5y71zHSUuN0yeSZP30DypGknqMfJWguNSfsZjsm3ZQf-Gwe8Kdhw35dTRrvAQysZdlYDnqrY1hDVW67exEmdPneGj2XITS8V-Erq3ywXh7ZVy91rO2dSewjYaZcHFnlrP28HDvHeuPYDHYlmfnuIw8jf2J1NtEhDOmMmAR7Uoi8ACUQTUM08YGhSXlVp9P0mv1jG9dLxoSlrOYPQdOw",
+        "width": 1836
+      },
+      {
+        "height": 378,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103611858263780846217/photos\">Cafe Szafa</a>"
+        ],
+        "photo_reference": "CoQBcwAAAIw9VPgQlJLLARthZH5bF36Hq-fLysCLq8pR2tpNbx4N1DBT25ProqByKY0c6KdcYG9GWo9qj2zIYrOYkzwI8oP381_LKXglp-7isuaTGRJxKOUc1r95JnWZGI5zPdTfFblP0TG7SHXEt2LDbsH6ljJ4ewc5Po0KkC23jgz6ZEwHEhA4tj20CLCIiJmXGYmnvJJiGhRF12fs-InL2VTJdsQ_0FypmCTJ6g",
+        "width": 567
+      },
+      {
+        "height": 280,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103611858263780846217/photos\">Cafe Szafa</a>"
+        ],
+        "photo_reference": "CoQBcwAAAFHyqJe7rX_l3MNLKI6iWRHOV5EbnjAAYaWBADS_nrIfksq9TWvAeeb4Ev9pwuUjX5eMpa97h-dEDl8w6jVrbRYaMIwvcxtZzcJTrFQkNOkx5yOapysJt77ThG28hpWGMdLKCRlEtY4xMS-rPk0KOe9xfmrY2_91TSqVvSMP0KOxEhDAGPFnaVgRiXZeaXojV6UsGhS923RgPjJNc2PWFuuiZvqgiSkisA",
+        "width": 300
+      }
+    ],
+    "place_id": "ChIJkaVEf3Vz_UYRQdJXi93rMuo",
+    "rating": 4.2,
+    "reference": "CmReAAAAvXn1ortbWcvyIK8gm8F-tSY-RZX5xHk64skoF7PtZvUhO_YKrO4sF3A7da6sAqySPIBDJMpbjoBS0eSr8MYW285hx_kZHRZLXvpAb29Br6k82dTfQYMayffxOzdiSgAgEhD1LNNmqqnP_wtWNkI7wu1FGhSHD8STbdVs6Zmil1rAuQbu_Ujf6w",
+    "reviews": [
+      {
+        "aspects": [
+          {
+            "rating": 2,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Piotr Marszałkowski",
+        "author_url": "https://plus.google.com/107878094994272872924",
+        "language": "pl",
+        "profile_photo_url": "//lh4.googleusercontent.com/-OGRIGbWUUgU/AAAAAAAAAAI/AAAAAAAABco/kzGRKKLqYA0/photo.jpg",
+        "rating": 4,
+        "text": "Miłe miejsce z duszą. W weekendy bardzo zatłoczone, latem właściciele wystawiają ogródek, który wypełnia się po brzegi wraz z pierwszym podmuchem, letniego, ciepłego powietrza. Szafa jest otwarta nawet w pasterkę. Można by podsumować, że jest to jedno z kultowych miejsc w Gdańsku. Z ciekawszych piw mamy belgijskie. Po za tym same klasyczne lagery. Ceny jak na starówkę normalne.",
+        "time": 1463484338
+      },
+      {
+        "aspects": [
+          {
+            "rating": 3,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Tomasz Boiński",
+        "author_url": "https://plus.google.com/118030984437170573432",
+        "language": "pl",
+        "profile_photo_url": "//lh6.googleusercontent.com/-amp1zrQBX_E/AAAAAAAAAAI/AAAAAAAAISQ/_kKEeqd0SY0/photo.jpg",
+        "rating": 5,
+        "text": "Z zewnątrz nie wygląda okazale, lokal na jednej z krótkich uliczek w pobliżu rynku.\nWewnątrz, wielopiętrowy pub, z pięknym barem i mnóstwem różnych piw do wyboru.\n\nUwaga, bo po kilku piwach schody wchodzą w tryb Hogwartu.",
+        "time": 1451246975
+      },
+      {
+        "aspects": [
+          {
+            "rating": 2,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Jerzy",
+        "author_url": "https://plus.google.com/110835338280121654543",
+        "language": "pl",
+        "profile_photo_url": "//lh3.googleusercontent.com/-tyRLlauS0vc/AAAAAAAAAAI/AAAAAAAAALM/GnNNYyJgHpQ/photo.jpg",
+        "rating": 4,
+        "text": "Jak już przyjeżdżam do Trójmiasta to często tam trafiam. Miejsce z klimatem i dobrą obsługą. Wybór trunków może nie jest oszałamiający, ale wystarczy. Duży minus za toaletę-zdecydowanie za mało oczek jak na pub.",
+        "time": 1450356697
+      },
+      {
+        "aspects": [
+          {
+            "rating": 3,
+            "type": "overall"
+          }
+        ],
+        "author_name": "Jan Chodyński",
+        "author_url": "https://plus.google.com/104540536328860870271",
+        "language": "pl",
+        "profile_photo_url": "//lh5.googleusercontent.com/-Iu_bSDv6kck/AAAAAAAAAAI/AAAAAAAAT9w/tvuvn9MCBXI/photo.jpg",
+        "rating": 5,
+        "text": "Miejsce z niepowtarzalnym klimatem! Lokal niewielki i często zatłoczony, ale na pewno wart odwiedzenia :)",
+        "time": 1468572353
+      },
+      {
+        "aspects": [
+          {
+            "rating": 3,
+            "type": "overall"
+          }
+        ],
+        "author_name": "szymon olszewski",
+        "author_url": "https://plus.google.com/108332097794141567773",
+        "language": "pl",
+        "profile_photo_url": "//lh4.googleusercontent.com/-CfA0I6pcxLA/AAAAAAAAAAI/AAAAAAAAAGc/tS-yKQQQI4c/photo.jpg",
+        "rating": 5,
+        "text": "Co można powiedzieć o miejscu w którym czujesz się jakbyś był u siebie.... Trzeba to poczuć samemu... ",
+        "time": 1460803390
+      }
+    ],
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "night_club",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "url": "https://maps.google.com/?cid=16875810090468758081",
+    "utc_offset": 120,
+    "vicinity": "Podmurze 2, Gdańsk",
+    "website": "http://www.cafeszafa.pl/"
+  },
+  "status": "OK"
+}
